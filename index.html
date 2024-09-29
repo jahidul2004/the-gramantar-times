@@ -16,9 +16,110 @@
             crossorigin="anonymous"
         ></script>
         <!-- Font awesome Linking end -->
+
+        <!-- Styles start -->
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+            .font-poppins {
+                font-family: "Poppins", sans-serif;
+            }
+
+            .font-newsreader {
+                font-family: "Newsreader", serif;
+            }
+
+            .text-semiblack {
+                color: #000000ab;
+            }
+        </style>
+        <!-- Styles end -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>The Gramantar</title>
     </head>
-    <body></body>
+    <body>
+        <!-- Header area start from here -->
+        <header class="w-[95%] lg:container md:container m-auto">
+            <section class="">
+                <!-- Logo area -->
+                <h1
+                    class="text-4xl md:text-5xl lg:text-6xl text-center font-newsreader font-bold py-7"
+                >
+                    The Gramantar Times
+                </h1>
+                <!-- Logo area end -->
+
+                <!-- Date -->
+                <div
+                    class="flex gap-2 flex-col md:flex-row lg:flex-row justify-center md:justify-between lg:justify-between font-newsreader border-b-2 pb-4 border-[#f5bf56]"
+                >
+                    <div
+                        class="text-center md:text-left lg:text-left text-lg text-semiblack"
+                    >
+                        <p>Sunday, September 29, 2024</p>
+                    </div>
+                    <div class="text-2xl font-bold text-center">
+                        <p>Without Fear or Favour</p>
+                    </div>
+                    <div class="text-center md:text-right lg:text-right">
+                        <p>
+                            <i
+                                class="text-orange-600 fa-solid fa-cloud-sun"
+                            ></i>
+                            29°C Comilla
+                        </p>
+                        <p>
+                            Air Quality in Comilla:<span
+                                class="text-yellow-500 font-extrabold"
+                                >93</span
+                            >
+                        </p>
+                    </div>
+                </div>
+                <!-- Date end -->
+
+                <!-- Nav elements -->
+                <div
+                    class="md:hidden lg:hidden text-center text-yellow-600 py-3 flex justify-between items-center border-b-2 list-none border-[#f5bf56]"
+                >
+                    <h1>
+                        <i
+                            class="text-3xl border-2 p-2 rounded-xl fa-solid fa-bars"
+                        ></i>
+                    </h1>
+                    <a href=""> <li class="text-error">National</li> </a
+                    ><a href=""> <li>Politics</li> </a
+                    ><a href=""> <li>Food</li> </a>
+                </div>
+                <div
+                    class="py-5 font-semibold border-b-2 hidden md:block lg:block"
+                >
+                    <ul class="flex justify-between">
+                        <a href=""> <li class="text-error">National</li> </a
+                        ><a href=""> <li>Politics</li> </a
+                        ><a href=""> <li>Food</li> </a
+                        ><a href=""> <li>Money</li> </a
+                        ><a href=""> <li>Opinion</li> </a
+                        ><a href=""> <li>International</li> </a
+                        ><a href=""> <li>Travel</li> </a
+                        ><a href="">
+                            <li>Health</li>
+                        </a>
+                        <a href="">
+                            <li>Valley</li>
+                        </a>
+                        <a href="">
+                            <li>Investigation</li>
+                        </a>
+                        <a href="">
+                            <li>World</li>
+                        </a>
+                    </ul>
+                </div>
+                <!-- Nav elements end -->
+            </section>
+        </header>
+        <!-- Header area end here -->
+    </body>
 </html>
