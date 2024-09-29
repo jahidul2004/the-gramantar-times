@@ -39,7 +39,7 @@
         <!-- Styles end -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>The Gramantar</title>
+        <title>The Gramantar Times</title>
     </head>
     <body>
         <!-- Header area start from here -->
@@ -74,7 +74,7 @@
                         </p>
                         <p>
                             Air Quality in Comilla:<span
-                                class="text-yellow-500 font-extrabold"
+                                class="text-error font-extrabold"
                                 >93</span
                             >
                         </p>
@@ -84,7 +84,7 @@
 
                 <!-- Nav elements -->
                 <div
-                    class="md:hidden lg:hidden text-center text-yellow-600 py-3 flex justify-between items-center border-b-2 list-none border-[#f5bf56]"
+                    class="md:hidden lg:hidden text-center text-error py-3 flex justify-between items-center border-b-2 list-none border-error px-5"
                 >
                     <h1>
                         <i
@@ -127,11 +127,11 @@
 
         <!-- 1st page design start -->
         <section
-            class="my-5 grid gap-3 grid-cols-4 grid-rows-6 container m-auto"
+            class="my-5 grid gap-3 grid-cols-1 md:grid-cols-4 lg:grid-cols-4 grid-rows-6 container m-auto"
         >
             <!-- 1st item start -->
             <div
-                class="col-span-1 border-b-2 row-span-2 font-newsreader p-3 cursor-pointer"
+                class="col-span-4 md:col-span-1 lg:col-span-1 border-b-2 row-span-2 font-newsreader p-3 cursor-pointer"
             >
                 <h1 class="text-2xl font-bold">
                     Concerns grow over timely repair of damaged roads
@@ -155,7 +155,7 @@
 
             <!-- Item 2 main item start -->
             <div
-                class="border-x-2 border-b-2 col-span-2 row-span-4 font-newsreader p-3 cursor-pointer"
+                class="border-x-2 border-b-2 col-span-4 md:col-span-2 lg:col-span-2 row-span-4 font-newsreader p-3 cursor-pointer"
             >
                 <div class="w-full">
                     <img class="w-full" src="assets/images/img-2.webp" alt="" />
@@ -177,7 +177,7 @@
 
             <!-- Item 3 start -->
             <div
-                class="border-b-2 col-span-1 row-span-2 font-newsreader p-3 cursor-pointer"
+                class="border-b-2 col-span-4 md:col-span-1 lg:col-span-1 row-span-2 font-newsreader p-3 cursor-pointer"
             >
                 <h1 class="text-2xl font-bold">
                     Concerns grow over timely repair of damaged roads
@@ -201,7 +201,7 @@
 
             <!-- Item 4 start -->
             <div
-                class="border-b-2 row-span-2 col-span-1 font-newsreader p-3 cursor-pointer"
+                class="border-b-2 row-span-2 col-span-4 md:col-span-1 lg:col-span-1 font-newsreader p-3 cursor-pointer"
             >
                 <h1 class="text-2xl font-bold">
                     Concerns grow over timely repair of damaged roads
@@ -225,7 +225,7 @@
 
             <!-- Item 5 start -->
             <div
-                class="border-b-2 row-span-2 col-span-1 font-newsreader p-3 cursor-pointer"
+                class="border-b-2 row-span-2 col-span-4 md:col-span-1 lg:col-span-1 font-newsreader p-3 cursor-pointer"
             >
                 <h1 class="text-2xl font-bold">
                     Concerns grow over timely repair of damaged roads
@@ -249,7 +249,7 @@
 
             <!-- Item 6 start -->
             <div
-                class="row-span-2 col-span-1 font-newsreader p-3 cursor-pointer"
+                class="row-span-2 col-span-4 md:col-span-1 lg:col-span-1 font-newsreader p-3 cursor-pointer"
             >
                 <h1 class="text-2xl font-bold">
                     Concerns grow over timely repair of damaged roads
@@ -273,12 +273,12 @@
 
             <!-- Item 7 start -->
             <div
-                class="border-x-2 row-span-2 col-span-2 flex gap-3 p-3 font-newsreader cursor-pointer"
+                class="border-x-2 row-span-2 col-span-4 md:col-span-2 lg:col-span-2 flex gap-3 p-3 font-newsreader cursor-pointer flex-col md:flex-row lg:flex-row"
             >
-                <div class="w-1/2">
+                <div class="w-full md:w-1/2 lg:w-1/2">
                     <img src="assets/images/img-7.webp" alt="" />
                 </div>
-                <div class="w-1/2">
+                <div class="w-full md:w-1/2 lg:w-1/2">
                     <h1 class="text-2xl font-bold">
                         Concerns grow over timely repair of damaged roads
                     </h1>
@@ -296,7 +296,7 @@
 
             <!-- Item 8 start -->
             <div
-                class="row-span-2 col-span-1 font-newsreader p-3 cursor-pointer"
+                class="row-span-2 col-span-4 md:col-span-1 lg:col-span-1 font-newsreader p-3 cursor-pointer"
             >
                 <h1 class="text-2xl font-bold">
                     Rains deaths, destruction in the east of Nepal.
@@ -324,7 +324,9 @@
         <section class="container m-auto border-y-2 p-5 mt-20 mb-10">
             <h1 class="text-error text-2xl font-bold py-3">Visual Stories</h1>
             <!-- Card container start -->
-            <div class="flex justify-between gap-5 font-newsreader">
+            <div
+                class="flex flex-col md:flex-row lg:flex-row justify-between gap-5 font-newsreader"
+            >
                 <!-- Card start -->
                 <div class="p-3">
                     <div class="mb-3">
@@ -398,9 +400,9 @@
             <div class="flex flex-col gap-5">
                 <!-- Card start -->
                 <div
-                    class="flex p-5 border rounded-lg justify-between font-newsreader"
+                    class="flex flex-col-reverse md:flex-row lg:flex-row p-5 border rounded-lg justify-between font-newsreader gap-3"
                 >
-                    <div class="w-[70%]">
+                    <div class="w-full md:w-[70%] lg:w-[70%]">
                         <h1 class="text-3xl font-bold">
                             BAN vs IND Match Delayed Due to Rain.
                         </h1>
@@ -414,7 +416,7 @@
                             adipisicing elit. Vel, officia!
                         </p>
                     </div>
-                    <div class="w-[30%] border">
+                    <div class="w-full md:w-[30%] lg:w-[30%] border">
                         <img
                             class="w-full h-[200px]"
                             src="assets/images/lu-1.jpeg"
@@ -425,9 +427,9 @@
                 <!-- Card end -->
                 <!-- Card start -->
                 <div
-                    class="flex p-5 border rounded-lg justify-between font-newsreader"
+                    class="flex flex-col-reverse md:flex-row lg:flex-row p-5 border rounded-lg justify-between font-newsreader gap-3"
                 >
-                    <div class="w-[70%]">
+                    <div class="w-full md:w-[70%] lg:w-[70%]">
                         <h1 class="text-3xl font-bold">
                             Flood is increasing in Noakhali.
                         </h1>
@@ -441,7 +443,7 @@
                             adipisicing elit. Vel, officia!
                         </p>
                     </div>
-                    <div class="w-[30%] border">
+                    <div class="w-full md:w-[30%] lg:w-[30%] border">
                         <img
                             class="w-full h-[200px]"
                             src="assets/images/lu-2.jpeg"
@@ -452,9 +454,9 @@
                 <!-- Card end -->
                 <!-- Card start -->
                 <div
-                    class="flex p-5 border rounded-lg justify-between font-newsreader"
+                    class="flex flex-col-reverse md:flex-row lg:flex-row p-5 border rounded-lg justify-between font-newsreader gap-3"
                 >
-                    <div class="w-[70%]">
+                    <div class="w-full md:w-[70%] lg:w-[70%]">
                         <h1 class="text-3xl font-bold">
                             A Landside hits in the Bandarban.
                         </h1>
@@ -468,7 +470,7 @@
                             adipisicing elit. Vel, officia!
                         </p>
                     </div>
-                    <div class="w-[30%] border">
+                    <div class="w-full md:w-[30%] lg:w-[30%] border">
                         <img
                             class="w-full h-[200px]"
                             src="assets/images/lu-3.jpeg"
@@ -486,9 +488,11 @@
         <section class="container m-auto border-y-2 p-5 mt-20 mb-10">
             <h1 class="text-error text-2xl font-bold py-3">Videos</h1>
             <!-- Card container start -->
-            <div class="flex justify-between gap-5 font-newsreader w-full">
+            <div
+                class="flex flex-col md:flex-row lg:flex-row justify-between gap-5 font-newsreader w-full"
+            >
                 <!-- Card start -->
-                <div class="p-3 w-1/4">
+                <div class="p-3 w-full md:w-1/4 lg:w-1/4">
                     <div class="mb-3">
                         <iframe
                             class="w-full"
@@ -508,7 +512,7 @@
                 <!-- Card end -->
 
                 <!-- Card start -->
-                <div class="p-3 w-1/4">
+                <div class="p-3 w-full md:w-1/4 lg:w-1/4">
                     <div class="mb-3">
                         <iframe
                             class="w-full"
@@ -528,7 +532,7 @@
                 <!-- Card end -->
 
                 <!-- Card start -->
-                <div class="p-3 w-1/4">
+                <div class="p-3 w-full md:w-1/4 lg:w-1/4">
                     <div class="mb-3">
                         <iframe
                             class="w-full"
@@ -550,7 +554,7 @@
                 <!-- Card end -->
 
                 <!-- Card start -->
-                <div class="p-3 w-1/4">
+                <div class="p-3 w-full md:w-1/4 lg:w-1/4">
                     <div class="mb-3">
                         <iframe
                             class="w-full"
